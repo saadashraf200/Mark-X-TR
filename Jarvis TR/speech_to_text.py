@@ -5,7 +5,7 @@ import sys
 import json
 import threading
 
-MODEL_PATH = "C:/Users/90553/Downloads/vosktr/vosk-model-small-tr-0.3"  # put your path
+MODEL_PATH = r"C:\Users\PUZZLE\Downloads\vosk-model-small-en-us-0.15"  # put your path
 model = vosk.Model(MODEL_PATH)
 
 q = queue.Queue()
